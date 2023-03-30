@@ -6,6 +6,7 @@
         "img": "./img/3kg.jpg",
         "cantidad": 1
     },
+
     {
         "id": 2,
         "nombre": "diezkg",
@@ -13,6 +14,7 @@
         "img": "./img/10kg.jpg",
         "cantidad": 1
     },
+    
     {
         "id": 3,
         "nombre": "veintekg",

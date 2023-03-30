@@ -57,8 +57,6 @@ const getProducts = async () => {
 
 getProducts();
 
-
-
 //set item
 const saveLocal = () => {
     localStorage.setItem("carrito", JSON.stringify(carrito));

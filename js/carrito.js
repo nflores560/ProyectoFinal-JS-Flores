@@ -62,7 +62,6 @@ carrito.forEach((product) => {
 
 });
 
-
     
 const total = carrito.reduce((acc, el) => acc + el.precio * el.cantidad, 0);
 
@@ -93,7 +92,6 @@ const carritoCounter = () => {
     const carritoLength = carrito.length;
 
     localStorage.setItem("carritoLength", JSON.stringify(carritoLength));
-
 
 
     cantidadCarrito.innerText = JSON.parse(localStorage.getItem("carritoLength"));
